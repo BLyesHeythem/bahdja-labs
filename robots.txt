@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://blyesheythem.github.io/bahdja-labs/sitemap.xml
