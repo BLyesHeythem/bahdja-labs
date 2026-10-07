@@ -2,6 +2,8 @@
 
 Site vitrine officiel de Bahdja Labs : agents IA, automatisation métier et produits technologiques.
 
+Le site est disponible en français, anglais et arabe. La langue choisie est mémorisée dans le navigateur et l’interface passe automatiquement en lecture droite-à-gauche pour l’arabe.
+
 ## Prévisualisation locale
 
 Avec Python :
@@ -29,4 +31,4 @@ Dans GitHub, ouvrir **Settings → Pages**. Dans **Build and deployment**, chois
 
 ## Contact
 
-Le bouton de contact pointe actuellement vers le profil GitHub `BLyesHeythem`. Remplacez ce lien par l’adresse e-mail ou le formulaire officiel de Bahdja Labs quand il sera disponible.
+Les boutons de contact ouvrent un nouveau message vers `lyes.hb93@gmail.com`.
