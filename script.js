@@ -9,7 +9,7 @@ const translations = {
     'expertise.eyebrow': 'Ce que nous construisons', 'expertise.title': 'Du problème métier au système opérationnel.', 'expertise.lead': 'Une seule équipe pour relier produit, intelligence artificielle, intégrations et déploiement.', 'expertise.agentTitle': 'Agents IA métier', 'expertise.agentText': 'Des agents spécialisés, branchés à vos données et encadrés par des règles claires pour assister les décisions et exécuter les tâches répétitives.', 'expertise.autoTitle': 'Automatisation & intégrations', 'expertise.autoText': 'Nous faisons communiquer logiciels historiques, API, fichiers et applications modernes sans bouleverser votre environnement.', 'expertise.productTitle': 'Produits sur mesure', 'expertise.productText': 'Applications web, connecteurs desktop et plateformes internes conçus pour être compris, adoptés et maintenus dans la durée.',
     'method.eyebrow': 'Notre méthode', 'method.title': 'Comprendre avant d’automatiser.', 'method.lead': 'Nous avançons par étapes courtes, visibles et testables. Le terrain guide les choix techniques — jamais l’inverse.', 'method.step1Title': 'Observer', 'method.step1Text': 'Cartographier le processus, les outils et les vraies contraintes des utilisateurs.', 'method.step2Title': 'Construire', 'method.step2Text': 'Livrer rapidement un flux fonctionnel, mesurable et relié à l’existant.', 'method.step3Title': 'Fiabiliser', 'method.step3Text': 'Tester sur le terrain, sécuriser les données et maîtriser les cas limites.', 'method.step4Title': 'Déployer', 'method.step4Text': 'Accompagner l’adoption et faire évoluer le système avec vos usages.',
     'principles.index': '04 — NOS PRINCIPES', 'principles.title': 'Une innovation responsable, construite pour durer.', 'principles.p1Title': 'Sécurité par conception', 'principles.p1Text': 'Les accès et les données sont protégés dès l’architecture.', 'principles.p2Title': 'Humain dans la boucle', 'principles.p2Text': 'L’utilisateur garde la visibilité et le contrôle sur les actions sensibles.', 'principles.p3Title': 'Valeur mesurable', 'principles.p3Text': 'Chaque fonctionnalité doit améliorer un résultat concret.',
-    'contact.eyebrow': 'Construisons la suite', 'contact.title': 'Un processus trop lourd mérite une meilleure solution.', 'contact.text': 'Parlez-nous de votre métier, de vos outils et de ce qui vous ralentit. Nous verrons ensemble où l’IA et l’automatisation peuvent réellement aider.', 'contact.cta': 'Nous écrire', 'footer.tagline': 'Agents IA · Automatisation métier · Produits technologiques', 'footer.contact': 'Contact', 'footer.top': 'Retour en haut ↑', 'footer.rights': 'Tous droits réservés.'
+    'contact.eyebrow': 'Construisons la suite', 'contact.title': 'Un processus trop lourd mérite une meilleure solution.', 'contact.text': 'Parlez-nous de votre métier, de vos outils et de ce qui vous ralentit. Nous verrons ensemble où l’IA et l’automatisation peuvent réellement aider.', 'contact.cta': 'Nous écrire', 'contact.private': 'Contact direct avec l’équipe Bahdja Labs', 'footer.tagline': 'Agents IA · Automatisation métier · Produits technologiques', 'footer.contact': 'Contact', 'footer.top': 'Retour en haut ↑', 'footer.rights': 'Tous droits réservés.'
   },
   en: {
     metaTitle: 'Bahdja Labs — AI agents and business solutions', metaDescription: 'Bahdja Labs builds AI agents, business automation and technology products designed for real-world operations.',
@@ -21,7 +21,7 @@ const translations = {
     'expertise.eyebrow': 'What we build', 'expertise.title': 'From business problem to working system.', 'expertise.lead': 'One team connecting product, artificial intelligence, integrations and deployment.', 'expertise.agentTitle': 'Business AI agents', 'expertise.agentText': 'Specialized agents connected to your data and governed by clear rules to support decisions and execute repetitive work.', 'expertise.autoTitle': 'Automation & integrations', 'expertise.autoText': 'We connect legacy software, APIs, files and modern applications without disrupting your environment.', 'expertise.productTitle': 'Custom products', 'expertise.productText': 'Web applications, desktop connectors and internal platforms designed to be understood, adopted and maintained over time.',
     'method.eyebrow': 'Our method', 'method.title': 'Understand before automating.', 'method.lead': 'We move through short, visible and testable steps. Field reality guides technical choices — never the other way around.', 'method.step1Title': 'Observe', 'method.step1Text': 'Map the process, tools and real constraints faced by users.', 'method.step2Title': 'Build', 'method.step2Text': 'Quickly deliver a functional, measurable flow connected to existing systems.', 'method.step3Title': 'Harden', 'method.step3Text': 'Test in the field, secure the data and master edge cases.', 'method.step4Title': 'Deploy', 'method.step4Text': 'Support adoption and evolve the system alongside real usage.',
     'principles.index': '04 — OUR PRINCIPLES', 'principles.title': 'Responsible innovation, built to last.', 'principles.p1Title': 'Security by design', 'principles.p1Text': 'Access and data are protected from the architecture stage.', 'principles.p2Title': 'Human in the loop', 'principles.p2Text': 'Users retain visibility and control over sensitive actions.', 'principles.p3Title': 'Measurable value', 'principles.p3Text': 'Every feature must improve a tangible outcome.',
-    'contact.eyebrow': 'Let’s build what comes next', 'contact.title': 'A process that feels too heavy deserves a better solution.', 'contact.text': 'Tell us about your business, your tools and what slows you down. Together, we will identify where AI and automation can make a real difference.', 'contact.cta': 'Email us', 'footer.tagline': 'AI agents · Business automation · Technology products', 'footer.contact': 'Contact', 'footer.top': 'Back to top ↑', 'footer.rights': 'All rights reserved.'
+    'contact.eyebrow': 'Let’s build what comes next', 'contact.title': 'A process that feels too heavy deserves a better solution.', 'contact.text': 'Tell us about your business, your tools and what slows you down. Together, we will identify where AI and automation can make a real difference.', 'contact.cta': 'Email us', 'contact.private': 'Direct contact with the Bahdja Labs team', 'footer.tagline': 'AI agents · Business automation · Technology products', 'footer.contact': 'Contact', 'footer.top': 'Back to top ↑', 'footer.rights': 'All rights reserved.'
   },
   ar: {
     metaTitle: 'Bahdja Labs — وكلاء ذكاء اصطناعي وحلول أعمال', metaDescription: 'تطوّر Bahdja Labs وكلاء ذكاء اصطناعي وحلول أتمتة ومنتجات تقنية مصممة لاحتياجات العمل الحقيقية.',
@@ -33,7 +33,7 @@ const translations = {
     'expertise.eyebrow': 'ما الذي نبنيه', 'expertise.title': 'من مشكلة مهنية إلى نظام فعّال.', 'expertise.lead': 'فريق واحد يجمع بين المنتج والذكاء الاصطناعي والتكامل والنشر.', 'expertise.agentTitle': 'وكلاء ذكاء اصطناعي للأعمال', 'expertise.agentText': 'وكلاء متخصصون متصلون ببياناتك ومحكومون بقواعد واضحة للمساعدة في القرار وتنفيذ المهام المتكررة.', 'expertise.autoTitle': 'الأتمتة والتكامل', 'expertise.autoText': 'نربط البرامج القديمة وواجهات API والملفات والتطبيقات الحديثة دون إرباك بيئة العمل.', 'expertise.productTitle': 'منتجات حسب الطلب', 'expertise.productText': 'تطبيقات ويب وموصلات سطح مكتب ومنصات داخلية سهلة الفهم والتبني والصيانة.',
     'method.eyebrow': 'منهجيتنا', 'method.title': 'نفهم قبل أن نؤتمت.', 'method.lead': 'نتقدم بخطوات قصيرة وواضحة وقابلة للاختبار. الواقع الميداني هو الذي يوجّه الخيارات التقنية.', 'method.step1Title': 'الملاحظة', 'method.step1Text': 'رسم مسار العملية والأدوات والقيود الحقيقية للمستخدمين.', 'method.step2Title': 'البناء', 'method.step2Text': 'تقديم مسار عملي وقابل للقياس ومترابط مع الأنظمة الحالية بسرعة.', 'method.step3Title': 'التثبيت', 'method.step3Text': 'الاختبار في الميدان وحماية البيانات والتحكم في الحالات الاستثنائية.', 'method.step4Title': 'النشر', 'method.step4Text': 'مرافقة التبني وتطوير النظام مع الاستخدام الفعلي.',
     'principles.index': '04 — مبادئنا', 'principles.title': 'ابتكار مسؤول مصمم ليستمر.', 'principles.p1Title': 'الأمان منذ التصميم', 'principles.p1Text': 'نحمي الوصول والبيانات ابتداءً من مرحلة تصميم البنية.', 'principles.p2Title': 'الإنسان في دائرة القرار', 'principles.p2Text': 'يحافظ المستخدم على الرؤية والتحكم في العمليات الحساسة.', 'principles.p3Title': 'قيمة قابلة للقياس', 'principles.p3Text': 'يجب أن تحسن كل ميزة نتيجة ملموسة.',
-    'contact.eyebrow': 'لنبنِ الخطوة القادمة', 'contact.title': 'كل عملية مرهقة تستحق حلاً أفضل.', 'contact.text': 'حدثنا عن نشاطك وأدواتك وما يبطئ عملك. سنحدد معًا أين يمكن للذكاء الاصطناعي والأتمتة أن يقدما قيمة حقيقية.', 'contact.cta': 'راسلنا', 'footer.tagline': 'وكلاء ذكاء اصطناعي · أتمتة الأعمال · منتجات تقنية', 'footer.contact': 'تواصل معنا', 'footer.top': 'العودة إلى الأعلى ↑', 'footer.rights': 'جميع الحقوق محفوظة.'
+    'contact.eyebrow': 'لنبنِ الخطوة القادمة', 'contact.title': 'كل عملية مرهقة تستحق حلاً أفضل.', 'contact.text': 'حدثنا عن نشاطك وأدواتك وما يبطئ عملك. سنحدد معًا أين يمكن للذكاء الاصطناعي والأتمتة أن يقدما قيمة حقيقية.', 'contact.cta': 'راسلنا', 'contact.private': 'تواصل مباشر مع فريق Bahdja Labs', 'footer.tagline': 'وكلاء ذكاء اصطناعي · أتمتة الأعمال · منتجات تقنية', 'footer.contact': 'تواصل معنا', 'footer.top': 'العودة إلى الأعلى ↑', 'footer.rights': 'جميع الحقوق محفوظة.'
   }
 };
 
@@ -41,6 +41,9 @@ const header = document.querySelector('[data-header]');
 const menuButton = document.querySelector('[data-menu-button]');
 const menu = document.querySelector('[data-menu]');
 const languageButtons = document.querySelectorAll('[data-lang]');
+const emailTriggers = document.querySelectorAll('[data-email-trigger]');
+const parallaxArea = document.querySelector('[data-parallax]');
+const parallaxCard = document.querySelector('[data-parallax-card]');
 
 function applyLanguage(language) {
   const lang = translations[language] ? language : 'fr';
@@ -71,6 +74,25 @@ function preferredLanguage() {
 function updateHeader() { header?.classList.toggle('scrolled', window.scrollY > 16); }
 
 languageButtons.forEach((button) => button.addEventListener('click', () => applyLanguage(button.dataset.lang)));
+emailTriggers.forEach((trigger) => trigger.addEventListener('click', (event) => {
+  event.preventDefault();
+  const decode = (value) => atob(value);
+  const primary = decode('bHllcy5oYjkzQGdtYWlsLmNvbQ==');
+  const secondary = decode('emFrYXJpYS5zYWFkaS56c0BnbWFpbC5jb20=');
+  const language = document.documentElement.lang;
+  const subjects = { fr: 'Projet avec Bahdja Labs', en: 'Project with Bahdja Labs', ar: 'مشروع مع Bahdja Labs' };
+  window.location.href = `mailto:${primary}?cc=${encodeURIComponent(secondary)}&subject=${encodeURIComponent(subjects[language] || subjects.fr)}`;
+}));
+
+if (parallaxArea && parallaxCard && !window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+  parallaxArea.addEventListener('pointermove', (event) => {
+    const bounds = parallaxArea.getBoundingClientRect();
+    const x = (event.clientX - bounds.left) / bounds.width - 0.5;
+    const y = (event.clientY - bounds.top) / bounds.height - 0.5;
+    parallaxCard.style.transform = `perspective(1100px) rotateX(${-y * 2.5}deg) rotateY(${x * 3.5}deg) translate3d(${x * 5}px, ${y * 5}px, 0)`;
+  });
+  parallaxArea.addEventListener('pointerleave', () => { parallaxCard.style.transform = ''; });
+}
 menuButton?.addEventListener('click', () => {
   const isOpen = menu.classList.toggle('open');
   menuButton.setAttribute('aria-expanded', String(isOpen));

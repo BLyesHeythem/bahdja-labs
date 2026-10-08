@@ -59,8 +59,15 @@
             <span data-i18n="hero.proof1">IA utile</span><span data-i18n="hero.proof2">Automatisation réelle</span><span data-i18n="hero.proof3">Déploiement maîtrisé</span>
           </div>
         </div>
-        <div class="hero-visual reveal reveal-delay">
-          <div class="image-frame">
+        <div class="hero-visual reveal reveal-delay" data-parallax>
+          <div class="motion-field" aria-hidden="true">
+            <span class="motion-ring motion-ring-one"></span>
+            <span class="motion-ring motion-ring-two"></span>
+            <span class="motion-node motion-node-one"></span>
+            <span class="motion-node motion-node-two"></span>
+            <span class="motion-node motion-node-three"></span>
+          </div>
+          <div class="image-frame" data-parallax-card>
             <img src="./assets/bahdja-systems.png" alt="Réseau abstrait de flux de données convergeant vers un système intelligent" width="1536" height="1024">
             <div class="visual-label visual-label-top"><i></i><b data-i18n="hero.visual1">Systèmes connectés</b></div>
             <div class="visual-label visual-label-bottom"><b data-i18n="hero.visual2">Complexité</b> <span>→</span> <b data-i18n="hero.visual3">Clarté</b></div>
@@ -209,8 +216,8 @@
         </div>
         <div class="contact-action">
           <p data-i18n="contact.text">Parlez-nous de votre métier, de vos outils et de ce qui vous ralentit. Nous verrons ensemble où l’IA et l’automatisation peuvent réellement aider.</p>
-          <a class="button button-white" href="mailto:lyes.hb93@gmail.com?subject=Projet%20avec%20Bahdja%20Labs"><b data-i18n="contact.cta">Nous écrire</b> <span aria-hidden="true">↗</span></a>
-          <a class="contact-email" href="mailto:lyes.hb93@gmail.com">lyes.hb93@gmail.com</a>
+          <a class="button button-white" href="#contact" data-email-trigger><b data-i18n="contact.cta">Nous écrire</b> <span aria-hidden="true">↗</span></a>
+          <p class="contact-private"><span aria-hidden="true">●</span> <span data-i18n="contact.private">Contact direct avec l’équipe Bahdja Labs</span></p>
         </div>
       </div>
     </section>
@@ -224,7 +231,7 @@
       </a>
       <p data-i18n="footer.tagline">Agents IA · Automatisation métier · Produits technologiques</p>
       <div class="footer-links">
-        <a href="mailto:lyes.hb93@gmail.com" data-i18n="footer.contact">Contact</a>
+        <a href="#contact" data-email-trigger data-i18n="footer.contact">Contact</a>
         <a href="https://github.com/BLyesHeythem" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
         <a href="#top" data-i18n="footer.top">Retour en haut ↑</a>
       </div>

@@ -31,4 +31,4 @@ Dans GitHub, ouvrir **Settings → Pages**. Dans **Build and deployment**, chois
 
 ## Contact
 
-Les boutons de contact ouvrent un nouveau message vers `lyes.hb93@gmail.com`.
+Les boutons de contact ouvrent un nouveau message vers les deux contacts Bahdja Labs. Les adresses ne sont pas affichées directement dans le HTML afin de limiter la collecte par les robots simples.
