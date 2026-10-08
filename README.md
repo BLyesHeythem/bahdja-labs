@@ -1,34 +1,28 @@
-# Bahdja Labs
+<p align="center">
+  <img src="assets/bahdja-mark.svg" width="80" alt="Logo Bahdja Labs">
+</p>
 
-Site vitrine officiel de Bahdja Labs : agents IA, automatisation métier et produits technologiques.
+<h1 align="center">Bahdja Labs</h1>
 
-Le site est disponible en français, anglais et arabe. La langue choisie est mémorisée dans le navigateur et l’interface passe automatiquement en lecture droite-à-gauche pour l’arabe.
+<p align="center">
+  Agents IA · Automatisation métier · Solutions technologiques
+</p>
 
-## Prévisualisation locale
+## À propos
 
-Avec Python :
+Bahdja Labs développe des solutions technologiques simples et intelligentes pour aider les entreprises à automatiser leur travail et améliorer leurs opérations.
 
-```powershell
-python -m http.server 8000
-```
+## Nos activités
 
-Puis ouvrir `http://localhost:8000`.
+- Agents d’intelligence artificielle
+- Automatisation des processus métier
+- Applications web et logiciels sur mesure
+- Intégration entre différents systèmes
 
-## Publication GitHub Pages
+## ComptaQuick
 
-Le site est entièrement statique et peut être publié directement depuis la branche `main`, sans compilation.
-
-Dans GitHub, ouvrir **Settings → Pages**. Dans **Build and deployment**, choisir **Deploy from a branch**, puis sélectionner la branche **main** et le dossier **/(root)**. Le site sera disponible à l’adresse :
-
-`https://blyesheythem.github.io/bahdja-labs/`
-
-## Structure
-
-- `index.html` : contenu et structure de la page
-- `styles.css` : identité visuelle et responsive
-- `script.js` : navigation et animations légères
-- `assets/` : logo et illustration
+ComptaQuick est une solution Bahdja Labs destinée aux professionnels de la comptabilité. Elle facilite les échanges entre une application web et PC Compta afin de simplifier le traitement des factures et des écritures comptables.
 
 ## Contact
 
-Les boutons de contact ouvrent un nouveau message vers les deux contacts Bahdja Labs. Les adresses ne sont pas affichées directement dans le HTML afin de limiter la collecte par les robots simples.
+Pour découvrir nos solutions ou discuter d’un projet, consultez le [site officiel de Bahdja Labs](https://blyesheythem.github.io/bahdja-labs/).
