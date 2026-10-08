@@ -1,5 +1,17 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-labelledby="title desc">
   <title id="title">Bahdja Labs</title>
-  <path fill="#07152f" d="M13 7h13v15.5c3.8-3.3 8.2-5 13.2-5C50 17.5 57 25.2 57 36.2 57 48.5 48.7 57 36.4 57H21.7V45h14.1c5.2 0 8.2-3.4 8.2-8.5 0-4.7-3.1-7.7-7.8-7.7-5.6 0-10.2 4-10.2 10V57H13z"/>
-  <rect width="11" height="11" x="2" y="46" rx="2" fill="#165dff"/>
+  <desc id="desc">Monogramme b bleu nuit avec un module numérique bleu</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#275dff"/>
+      <stop offset="1" stop-color="#19b8ff"/>
+    </linearGradient>
+    <linearGradient id="signal" x1="0" y1="1" x2="1" y2="0">
+      <stop offset="0" stop-color="#165dff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#32c8ff"/>
+    </linearGradient>
+  </defs>
+  <path fill="#07152f" fill-rule="evenodd" d="M12 4h15v18.7A21.7 21.7 0 0 1 40 18c12.4 0 21 8.7 21 21s-8.7 21-21.2 21H12V4Zm15 35c0 5.3 3.9 9 9.5 9s9.5-3.7 9.5-9-3.9-9-9.5-9-9.5 3.7-9.5 9Z"/>
+  <path d="M48.5 51.5c5.3-3.2 8.2-7.6 8.5-13.4" fill="none" stroke="url(#signal)" stroke-width="3.2" stroke-linecap="round"/>
+  <rect width="12" height="12" x="2" y="47" rx="2.5" fill="url(#accent)"/>
 </svg>

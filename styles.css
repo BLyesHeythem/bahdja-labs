@@ -40,10 +40,11 @@ b { font-weight: inherit; }
 .site-header { position: fixed; inset: 0 0 auto; z-index: 50; border-bottom: 1px solid transparent; transition: .25s ease; }
 .site-header.scrolled { background: rgba(255,255,255,.92); border-color: var(--line); backdrop-filter: blur(16px); }
 .nav-wrap { min-height: 80px; display: flex; align-items: center; justify-content: space-between; }
-.brand { display: inline-flex; align-items: center; gap: 11px; font-size: 23px; font-weight: 800; letter-spacing: -.8px; }
-.brand img { width: 37px; height: 37px; }
+.brand { display: inline-flex; align-items: center; gap: 12px; font-size: 23px; font-weight: 820; letter-spacing: -.9px; }
+.brand img { width: 40px; height: 40px; filter: drop-shadow(0 7px 10px rgba(7,21,47,.12)); transition: transform .25s ease, filter .25s ease; }
+.brand:hover img { transform: translateY(-2px) rotate(-2deg); filter: drop-shadow(0 10px 14px rgba(22,93,255,.2)); }
 .brand span { display: flex; align-items: baseline; gap: 5px; }
-.brand small { font-size: 12px; font-weight: 600; letter-spacing: 4px; text-transform: uppercase; }
+.brand small { color: var(--blue); font-size: 11px; font-weight: 750; letter-spacing: 3.8px; text-transform: uppercase; }
 .main-nav { display: flex; align-items: center; gap: 33px; font-size: 14px; font-weight: 650; }
 .main-nav > a:not(.button) { position: relative; }
 .main-nav > a:not(.button)::after { content: ""; position: absolute; right: 0; bottom: -7px; left: 0; height: 2px; background: var(--blue); transform: scaleX(0); transform-origin: right; transition: transform .2s; }
