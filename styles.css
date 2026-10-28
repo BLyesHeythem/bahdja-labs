@@ -149,6 +149,28 @@ html[dir="rtl"] .product-button svg { rotate: 180deg; }
 .float-card-two { top: 68px; left: 28px; }
 .float-card-two i { width: 7px; height: 7px; border-radius: 50%; background: var(--green); }
 
+.solutions { scroll-margin-top: 90px; }
+.product-card { border: 1px solid rgba(113,157,229,.18); }
+.product-content { position: relative; background: radial-gradient(ellipse at 0 0, rgba(43,111,255,.1), transparent 65%); }
+.product-interface::after { content: ""; position: absolute; width: 320px; height: 320px; top: 12%; right: -100px; border-radius: 50%; background: rgba(69,171,255,.18); filter: blur(55px); pointer-events: none; }
+.mock-window, .float-card { z-index: 1; }
+.product-button { position: relative; overflow: hidden; }
+.product-button::before { content: ""; position: absolute; inset: 0; background: linear-gradient(110deg, transparent 25%, rgba(255,255,255,.2) 50%, transparent 75%); transform: translateX(-150%) skewX(-15deg); pointer-events: none; }
+.product-button:hover::before, .product-button:focus-visible::before { transform: translateX(150%) skewX(-15deg); transition: transform .7s ease; }
+.product-button:hover svg { transform: translate(2px, -2px); }
+@media (prefers-reduced-motion: no-preference) {
+  .product-card.visible .mock-window { animation: product-float 7s ease-in-out infinite; }
+  .product-card.visible .float-card-one { animation: product-badge-float 6s ease-in-out infinite; }
+  .product-card.visible .float-card-two { animation: product-badge-float 6s ease-in-out -3s infinite; }
+  .product-card.visible .status-pill i, .product-card.visible .float-card-two i { animation: product-signal 3s ease-in-out infinite; }
+  .product-card.visible .mock-table b { transform-origin: left; animation: product-data 5s ease-in-out infinite; }
+  .product-card.visible .product-interface::after { animation: product-badge-float 9s ease-in-out infinite; }
+}
+@keyframes product-float { 0%, 100% { transform: translateY(0) rotate(-2deg); } 50% { transform: translateY(-12px) rotate(-1deg); } }
+@keyframes product-badge-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+@keyframes product-signal { 0%, 100% { box-shadow: 0 0 0 0 rgba(53,211,155,0); } 50% { box-shadow: 0 0 0 5px rgba(53,211,155,.13); } }
+@keyframes product-data { 0%, 100% { transform: scaleX(1); } 50% { transform: scaleX(.7); } }
+
 .expertise { border-bottom: 1px solid var(--line); }
 .capability-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .capability { position: relative; min-height: 420px; padding: 40px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); transition: color .3s, background .3s, transform .3s; }
