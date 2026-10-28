@@ -212,6 +212,8 @@ html[dir="rtl"] .product-button svg { rotate: 180deg; }
 .product-flow strong { display: grid; flex-shrink: 0; width: 32px; height: 32px; place-items: center; border: 1px solid #5287d6; border-radius: 9px; background: #19417f; color: white; font-size: 11px; }
 .product-flow i { position: relative; width: 52px; height: 1px; overflow: hidden; background: #365a92; }
 .product-flow i::after { content: ""; position: absolute; width: 20px; height: 1px; background: #79c9ff; transform: translateX(-22px); }
+.product-flow > span { max-width: 115px; text-align: center; }
+.product-flow > i { flex-shrink: 1; min-width: 14px; }
 @media (prefers-reduced-motion: no-preference) {
   .product-card.visible .mock-chart i { animation: chart-breathe 4s ease-in-out infinite alternate; }.product-card.visible .mock-chart i:nth-child(2n) { animation-delay: -2s; }
   .product-card.visible .product-flow i::after { animation: flow-travel 2.8s linear infinite; }

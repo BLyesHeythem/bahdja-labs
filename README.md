@@ -21,7 +21,7 @@ Bahdja Labs développe des solutions technologiques simples et intelligentes pou
 
 ## ComptaQuick
 
-ComptaQuick est une solution Bahdja Labs destinée aux professionnels de la comptabilité. Elle facilite les échanges entre une application web et PC Compta afin de simplifier le traitement des factures et des écritures comptables.
+ComptaQuick est une solution Bahdja Labs destinée aux professionnels de la comptabilité. Elle facilite les échanges entre une application web et un logiciel de comptabilité afin de simplifier le traitement des factures et des écritures comptables.
 
 ## Contact
 
