@@ -117,6 +117,13 @@ b { font-weight: inherit; }
 .feature-list li { display: flex; align-items: center; gap: 8px; }
 .feature-list li::before { content: "✓"; color: #4b9bff; font-weight: 900; }
 .text-link-light { color: #80afff; }
+.product-access { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
+.product-button { min-height: 56px; gap: 22px; padding: 0 24px; border-color: rgba(255,255,255,.22); border-radius: 12px; background: linear-gradient(135deg, #246bff, #1454df); box-shadow: 0 8px 24px rgba(0,64,210,.25), inset 0 1px 0 rgba(255,255,255,.16); }
+.product-button:hover { background: linear-gradient(135deg, #387aff, #1b61f0); box-shadow: 0 12px 30px rgba(0,64,210,.38); }
+.product-button svg { flex-shrink: 0; transition: transform .2s; }
+.product-button:hover svg { transform: translateX(4px); }
+.product-domain { color: #aab7ca; font-size: 12px; letter-spacing: .4px; }
+html[dir="rtl"] .product-button svg { rotate: 180deg; }
 .product-interface { position: relative; display: grid; place-items: center; overflow: hidden; background: radial-gradient(circle at 70% 30%, #176bf7, #0d3d98 42%, #071b42 75%); }
 .product-interface::before { content: ""; position: absolute; inset: 0; opacity: .13; background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 44px 44px; transform: perspective(600px) rotateX(55deg) scale(1.4); }
 .mock-window { position: relative; width: 84%; overflow: hidden; border: 1px solid rgba(255,255,255,.42); border-radius: 13px; background: #f8fbff; box-shadow: 0 40px 80px rgba(0,0,0,.3); transform: rotate(-2deg); }
@@ -242,6 +249,7 @@ html[dir="rtl"] .footer-links { justify-content: flex-start; }
   .statement { padding: 75px 0; }.statement-grid, .section-heading, .method-layout, .principles-layout, .contact-card { grid-template-columns: 1fr; }.statement-grid, .section-heading { gap: 28px; }
   .statement h2, .section-heading h2, .method h2, .principles h2, .contact h2 { font-size: 39px; letter-spacing: -2px; }
   .product-content { padding: 36px 28px; }.product-topline { margin-bottom: 45px; }.feature-list { grid-template-columns: 1fr; }.product-interface { min-height: 430px; }.mock-window { width: 92%; }.float-card-two { top: 26px; left: 16px; }.float-card-one { right: 14px; bottom: 24px; }
+  .product-access { align-items: stretch; }.product-button { gap: 14px; padding-inline: 16px; }.product-domain { text-align: center; }
   .capability-grid { grid-template-columns: 1fr; }.capability, .capability:last-child { grid-column: auto; min-height: 360px; }.cap-icon { margin: 42px 0 25px; }
   .method-intro { position: static; }.method-layout { gap: 40px; }.method-steps li { grid-template-columns: 45px 1fr; }
   .principles h2 { margin-top: 25px; }.contact-card { gap: 30px; padding: 40px 28px; }
