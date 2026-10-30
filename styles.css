@@ -118,6 +118,14 @@ b { font-weight: inherit; }
 .feature-list li::before { content: "✓"; color: #4b9bff; font-weight: 900; }
 .text-link-light { color: #80afff; }
 .product-access { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
+.product-actions { display: flex; flex-wrap: wrap; align-items: stretch; gap: 12px; width: 100%; }
+.solutions .product-actions .product-button { min-width: 0; flex: 1 1 auto; gap: 10px; padding-inline: 16px; font-size: 12px; }
+.solutions .product-actions .product-download { background: rgba(130,174,255,.08); border-color: rgba(163,196,255,.35); box-shadow: inset 0 1px 0 rgba(255,255,255,.06); }
+.solutions .product-actions .product-download:hover { background: rgba(130,174,255,.17); border-color: #80afff; box-shadow: 0 8px 24px rgba(0,0,0,.15); }
+.product-download > span { display: flex; flex-direction: column; align-items: flex-start; line-height: 1.5; }
+.product-download small { color: #aec5e8; font-size: 10px; font-weight: 500; }
+html[dir="rtl"] .product-download svg { rotate: none; }
+@media (max-width: 420px) { .product-actions { flex-direction: column; } }
 .product-button { min-height: 56px; gap: 22px; padding: 0 24px; border-color: rgba(255,255,255,.22); border-radius: 12px; background: linear-gradient(135deg, #246bff, #1454df); box-shadow: 0 8px 24px rgba(0,64,210,.25), inset 0 1px 0 rgba(255,255,255,.16); }
 .product-button:hover { background: linear-gradient(135deg, #387aff, #1b61f0); box-shadow: 0 12px 30px rgba(0,64,210,.38); }
 .product-button svg { flex-shrink: 0; transition: transform .2s; }
