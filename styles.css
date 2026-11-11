@@ -118,6 +118,21 @@ b { font-weight: inherit; }
 .feature-list li::before { content: "✓"; color: #4b9bff; font-weight: 900; }
 .text-link-light { color: #80afff; }
 .product-access { display: flex; flex-direction: column; align-items: flex-start; gap: 12px; }
+.product-pricing { position: relative; margin: 0 0 24px; padding: 20px 22px; overflow: hidden; border: 1px solid rgba(126,174,255,.3); border-radius: 16px; background: linear-gradient(120deg, rgba(46,110,225,.18), rgba(30,69,127,.15)); box-shadow: inset 0 1px 0 rgba(255,255,255,.05); }
+.product-pricing::before { content: ""; position: absolute; inset: 0 auto 0 0; width: 3px; background: linear-gradient(#438aff, #37c7e7); }
+.pricing-label { margin: 0 0 12px; color: #a9caff; font-size: 10px; font-weight: 750; letter-spacing: 1.3px; text-transform: uppercase; }
+.pricing-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 14px; }
+.pricing-price { display: flex; flex-wrap: wrap; align-items: baseline; gap: 5px 9px; margin: 0; }
+.pricing-price strong { color: #fff; font-size: 38px; line-height: 1.15; font-weight: 750; letter-spacing: -1.4px; font-variant-numeric: tabular-nums; }
+.pricing-price strong span { font-size: 13px; letter-spacing: .3px; font-weight: 650; }
+.pricing-price > span { color: #c2d2e9; font-size: 12px; }
+.pricing-credit { flex-shrink: 0; padding: 6px 11px; border: 1px solid rgba(119,172,255,.3); border-radius: 999px; color: #d7e7ff; background: rgba(53,120,245,.16); font-size: 12px; font-weight: 650; }
+.pricing-note { margin: 15px 0 0; padding-top: 12px; border-top: 1px solid rgba(153,187,237,.15); color: #afc2dd; font-size: 12px; line-height: 1.6; }
+html[dir="rtl"] .product-pricing::before { left: auto; right: 0; }
+html[dir="rtl"] .pricing-label { letter-spacing: 0; }
+@media (prefers-reduced-motion: no-preference) { .product-card.visible .product-pricing { animation: pricing-enter .6s ease-out both; } }
+@keyframes pricing-enter { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 420px) { .product-pricing { padding: 18px; }.pricing-price strong { font-size: 34px; } }
 .product-actions { display: flex; flex-wrap: wrap; align-items: stretch; gap: 12px; width: 100%; }
 .solutions .product-actions .product-button { min-width: 0; flex: 1 1 auto; gap: 10px; padding-inline: 16px; font-size: 12px; }
 .solutions .product-actions .product-download { background: rgba(130,174,255,.08); border-color: rgba(163,196,255,.35); box-shadow: inset 0 1px 0 rgba(255,255,255,.06); }
